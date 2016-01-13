@@ -1,13 +1,9 @@
 $(document).ready(function(){
-	$('#gold').on('mouseenter', function(){
-				$(this).addClass('gold');
-				$(this).removeClass('circle');
+	$('.gold').on('mouseenter', function(){
+				$(this).addClass('golda');
+				$(this).removeClass('cirlce');
 				$(this).animate({'border-radius': '100%', 'padding': '100px'}, 'fast');
 				$('.circle').addClass('post');
-
-				
-
-
 			});
 	$('.red').on('mouseenter', function(){
 		$(this).removeClass('red');
